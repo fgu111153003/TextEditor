@@ -1,0 +1,19 @@
+﻿<Window x:Class="TextEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEditor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFEBDDC0">
+        <Button x:Name="btnOpen" Content="開啟檔案" HorizontalAlignment="Left" Margin="31,20,0,0" VerticalAlignment="Top" Height="31" Width="59"/>
+        <Button x:Name="btnSave" Content="儲存檔案" HorizontalAlignment="Left" Margin="106,20,0,0" VerticalAlignment="Top" Height="31" Width="59"/>
+        <ComboBox x:Name="cmbFontFamily" HorizontalAlignment="Left" Margin="179,25,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cmbFontSize" HorizontalAlignment="Left" Margin="313,25,0,0" VerticalAlignment="Top" Width="71"/>
+        <Button x:Name="btnBold" Content="B" HorizontalAlignment="Left" Margin="400,20,0,0" VerticalAlignment="Top" Height="31" Width="34" RenderTransformOrigin="4.277,2.347" FontSize="20"/>
+        <Button x:Name="btnItalic" Content="I" HorizontalAlignment="Left" Margin="447,20,0,0" VerticalAlignment="Top" Height="31" Width="34" RenderTransformOrigin="4.277,2.347" FontSize="20"/>
+        <Button x:Name="btnUnderline" Content="U" HorizontalAlignment="Left" Margin="495,20,0,0" VerticalAlignment="Top" Height="31" Width="34" RenderTransformOrigin="4.277,2.347" FontSize="20"/>
+
+    </Grid>
+</Window>
